@@ -1,0 +1,36 @@
+project:
+  name: "项目名称"
+  mode: "dev"
+  port: 端口
+  start: "创建时间"
+log:
+  level: "日志水平"
+  filename: "日志文件名"
+  max_size: 200
+  max_age: 30
+  max_backups: 7
+mysql:
+  host: "IP"
+  port: 端口
+  user: "用户名"
+  password: "密码"
+  dbname: "数据库"
+  max_open_conns: 200
+  max_idle_conns: 50
+redis:
+  db: redis仓库
+  host: IP:端口
+  password: "密码"
+#阿里云oss配置
+oss:
+  end_point: ""
+  access_key_id : ""
+  access_key_secret: ""
+  bucket_name: ""
+  base_path: ""
+rabbitMQ:
+  username: 用户名
+  password: 密码
+  host: IP
+  post: 端口
+
